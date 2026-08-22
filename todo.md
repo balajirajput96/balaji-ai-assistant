@@ -1,0 +1,21 @@
+# Project TODO
+
+- [x] Create the privacy-first local assistant domain model for conversations, tasks, sources, memory, connectors, automations, and usage states.
+- [x] Establish the five-tab portrait mobile navigation and home/chat experience.
+- [x] Implement local task state and truthful task-detail progress views.
+- [x] Implement research, document, and citation-ready source views without fabricated evidence.
+- [x] Implement local memory preferences, export/delete controls, and privacy disclosures.
+- [x] Implement automation and connector screens with explicit unavailable/configuration states.
+- [x] Implement usage/provider status with only verified availability and quota information.
+- [x] Add light/dark brand theme, accessible controls, and iOS-oriented interaction feedback.
+- [ ] Add voice and document capability only after reading the relevant Expo SDK documentation and validating permissions/handling.
+- [x] Research official platform, provider, and Play Store requirements and document sources/licenses.
+- [ ] Add automated tests for local domain logic, important UI states, privacy behavior, and failure states.
+- [x] Generate a custom app icon, update Expo branding configuration, and replace all scaffold image placeholders.
+- [x] Prepare architecture, security, privacy, setup, troubleshooting, and engineering-log documentation.
+- [ ] Verify TypeScript, lint, tests, and the mobile preview before the first checkpoint.
+- [x] Verify TypeScript, lint, deterministic local tests, and Expo public configuration for the first foundation.
+- [ ] Preserve existing GitHub repair/master-mission work without pushing, merging, deploying, or changing credentials.
+- [x] Fix typed-route navigation validation for Settings feature destinations.
+- [x] Resolve the Tasks screen hook dependency lint warning.
+- [x] Remove the remaining Tasks hook lint warning and make Expo configuration validation robust to command output noise.

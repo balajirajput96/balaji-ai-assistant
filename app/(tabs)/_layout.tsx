@@ -31,10 +31,14 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: "Chat",
+          tabBarIcon: ({ color }) => <IconSymbol size={25} name="bubble.left.and.bubble.right.fill" color={color} />,
         }}
       />
+      <Tabs.Screen name="tasks" options={{ title: "Tasks", tabBarIcon: ({ color }) => <IconSymbol size={25} name="checklist" color={color} /> }} />
+      <Tabs.Screen name="research" options={{ title: "Research", tabBarIcon: ({ color }) => <IconSymbol size={25} name="magnifyingglass" color={color} /> }} />
+      <Tabs.Screen name="automation" options={{ title: "Automate", tabBarIcon: ({ color }) => <IconSymbol size={25} name="bolt.fill" color={color} /> }} />
+      <Tabs.Screen name="settings" options={{ title: "Settings", tabBarIcon: ({ color }) => <IconSymbol size={25} name="gearshape.fill" color={color} /> }} />
     </Tabs>
   );
 }
